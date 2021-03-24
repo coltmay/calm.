@@ -19,17 +19,48 @@ body {
 
 .buttonFocus {
     text-align: center;
-    height: 50px;
+    height: 75px;
 }
 
-#phraseButton {
+.submitButtonFocus {
+    text-align: center;
+    height: 75px;
+}
+
+#phraseButton{
     font-family: 'Poiret One';
     font-weight: 900;
     font-size: x-large;
     margin-top: 1em;
     width: 15%;
+    min-width: 200px;
     height: 100%;
     color: rgb(49, 49, 49);
+}
+
+#submitButton {
+    font-family: 'Poiret One';
+    font-weight: 900;
+    font-size: x-large;
+    margin-top: 1em;
+    width: 15%;
+    min-width: 200px;
+    height: 100%;
+    color: rgb(49, 49, 49);
+}
+
+.phraseInput {
+    justify-content: center;
+    display: flex;
+}
+
+textarea {
+    resize: none;
+}
+
+#phraseInputBox {
+    width: 90%;
+    height: 250px;
 }
 
 footer {
