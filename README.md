@@ -3,7 +3,7 @@ relax.
 
 stay awhile.
 
-runs on [json-server](https://github.com/typicode/json-server).
+runs on [json-server](https://www.npmjs.com/package/json-server).
 
 from root:
 ```bash
