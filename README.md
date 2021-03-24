@@ -1,4 +1,4 @@
-# calm.
+# chill.
 relax.
 
 stay awhile.
