@@ -10,4 +10,4 @@ from root:
 cd api
 json-server -p 8099 -w db.json
 ```
-![](./project.png)
+![](./projectimage.png)

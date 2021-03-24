@@ -7,6 +7,7 @@
 body {
     display: flex;
     flex-direction: column;
+    min-height: 95vh;
 }
 
 .phraseFocus {
@@ -15,6 +16,7 @@ body {
     font-size: xx-large;
     text-align: center;
     color: rgb(49, 49, 49);
+    height: 650px;
 }
 
 .buttonFocus {
@@ -24,14 +26,13 @@ body {
 
 .submitButtonFocus {
     text-align: center;
-    height: 75px;
+    height: 100%;
 }
 
 #phraseButton{
     font-family: 'Poiret One';
     font-weight: 900;
     font-size: x-large;
-    margin-top: 1em;
     width: 15%;
     min-width: 200px;
     height: 100%;
@@ -42,7 +43,6 @@ body {
     font-family: 'Poiret One';
     font-weight: 900;
     font-size: x-large;
-    margin-top: 1em;
     width: 15%;
     min-width: 200px;
     height: 100%;
@@ -67,7 +67,7 @@ footer {
     font-family: 'Poiret One';
     font-weight: 850;
     font-size: large;
-    margin-top: 5em;
+    margin-top: auto;
     text-align: center;
     color: rgb(102, 102, 102);
 }
