@@ -6,17 +6,32 @@ import { DisplayButton } from "./feed/ButtonPreview.js";
 const phraseElement = document.querySelector(".phraseFocus")
 const buttonElement = document.querySelector(".buttonFocus")
 
+// ! Look into `Fisher-Yates Algorithm`
+
+let lastRandom = 0;
+
 const ShowRandomPhrase = () => {
     getPhrases()
         .then(() => {
             let length = phraseLength();
-            let randomPhraseInt = Math.floor((Math.random() * length));
-            let randomPhrase = usePhrases()[randomPhraseInt]
+
+            let randomIndex = randomSelector(length);
+            lastRandom = randomIndex;
+            console.log(lastRandom);
+            let randomPhrase = usePhrases()[randomIndex]
+
             let phrase = DisplayPhrase(randomPhrase)
             
             phraseElement.innerHTML = phrase;
         })
 }
+
+const randomSelector = (length) => {
+    do {
+    return Math.floor((Math.random() * length));
+    } while (lastRandom === randomIndex);
+}
+
 const ShowRandomButton = () => {
     getButtons()
         .then(() => {
