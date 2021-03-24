@@ -1,26 +1,42 @@
 {
-    "phrases": [
-        {
-            "id": 1,
-            "phrase": "the wind blows gently through your hair as you climb the tree.  you think that if you reach hard enough, you can pluck the pear right from the top.  your grandmother looks on, a faint smile on her face."
-        },
-        {
-            "id": 2,
-            "phrase": "you taste salt in the air as the mist settles over the pines, jutting up sporadically from the dark granite cliffs.  `another log for the fire`, you think as you turn back toward the cabin."
-        }
-    ],
-    "buttons": [
-        {
-            "id": 1,
-            "label": "cool."
-        },
-        {
-            "id": 2,
-            "label": "groovy."
-        },
-        {
-            "id": 3,
-            "label": "rad."
-        }
-    ]
+  "phrases": [
+    {
+      "id": 1,
+      "phrase": "the wind blows gently through your hair as you climb the tree.  you think that if you reach hard enough, you can pluck the pear right from the top. <br><br> your grandmother looks on, a faint smile on her face. <br><br> 'if you can get a few more, we'll have enough for a pie.'"
+    },
+    {
+      "id": 2,
+      "phrase": "you taste salt in the air as the mist settles over the pines, jutting up sporadically from the dark granite cliffs. <br><br>  `another log for the fire`, you think as you turn back toward the cabin."
+    }
+  ],
+  "buttons": [
+    {
+      "id": 1,
+      "label": "cool."
+    },
+    {
+      "id": 2,
+      "label": "groovy."
+    },
+    {
+      "id": 3,
+      "label": "rad."
+    },
+    {
+      "id": 4,
+      "label": "tight."
+    },
+    {
+      "id": 5,
+      "label": "awesome."
+    },
+    {
+      "id": 6,
+      "label": "totally."
+    },
+    {
+      "id": 7,
+      "label": "right on."
+    }
+  ]
 }

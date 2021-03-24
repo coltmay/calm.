@@ -42,3 +42,14 @@ export const buttonLength = () => {
 export const useButtons = () => {
     return buttonArray;
 }
+
+export const createPhrase = (phraseObj) => {
+    return fetch("http://localhost:8099/phrases", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify(phraseObj)
+    })
+        .then(response => response.json())
+}
